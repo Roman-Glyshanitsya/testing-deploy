@@ -1,0 +1,43 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+/* BASE */
+@import url("./base/reset.css");
+@import url('./base/common.css');
+
+
+/* LAYOUT */
+@import url("./layout/header.css");
+@import url("./layout/hero.css");
+@import url("./layout/products.css");
+@import url("./layout/made.css");
+@import url("./layout/review.css");
+@import url("./layout/footer.css");
+
+
+/* COMPONENTS */
+@import url("./components/buy-now-modal.css");
+@import url("./components/modal-with-info-about-product.css");
+@import url("./components/read-more-modal.css");
+@import url("./components/our-locations-modal.css");
+@import url("./components/franchise-modal.css");
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
